@@ -157,8 +157,158 @@
 //       }
 //     }
 //   };
-  
+
 //     const gloveBoxContents = myStorage.car.inside["glove box"];
 //   console.log();
+
+
+
+// function multiplyAll(arr) {
+//     let product = 1;
+//     // Only change code below this line
+//   for (let i = 0; i < arr.length; i++) {
+//     for (let x = 0; x < arr[i].length; x++) {
+//         product *= arr[i][x];        
+//     }
+
+
+//   }
+//     // Only change code above this line
+//     return product;
+//   }
+
+//   console.log(multiplyAll([[1, 6], [3, 8], [5, 6, 14]]));         
+
+// const myArray = [];
+// let i = 10;
+
+// // Only change code below this line
+// do {
+//  myArray.push(i);
+//   i++;
+// } while (i < 5);
+// console.log(myArray);
+
+
+// function multiply(arr, n) {
+//     let product = 1;
+//     for (let i = 0; i < n; i++) {
+//       product *= arr[i];
+//     }
+//     return product;
+//   }
+
+
+//   console.log(multiply([10,15,5], 10));
+//   function multiply(arr, n) {
+//     if (n <= 0) {
+//       return 0;
+//     } else {
+//       return multiply(arr, n - 1) + arr[n - 1];
+//     }
+//   }
+//   console.log( multiply([2, 3, 4, 5], 3));
+
+// Setup
+// const contacts = [
+//     {
+//         firstName: "Akira",
+//         lastName: "Laine",
+//         number: "0543236543",
+//         likes: ["Pizza", "Coding", "Brownie Points"],
+//     },
+//     {
+//         firstName: "Harry",
+//         lastName: "Potter",
+//         number: "0994372684",
+//         likes: ["Hogwarts", "Magic", "Hagrid"],
+//     },
+//     {
+//         firstName: "Sherlock",
+//         lastName: "Holmes",
+//         number: "0487345643",
+//         likes: ["Intriguing Cases", "Violin"],
+//     },
+//     {
+//         firstName: "Kristian",
+//         lastName: "Vos",
+//         number: "unknown",
+//         likes: ["JavaScript", "Gaming", "Foxes"],
+//     },
+// ];
+
+
+// function lookUpProfile(name, prop) {
+
+//     // Only change code below this line
+//     for (let i = 0; i < contacts.length; i++) {
+
+
+//         if (contacts[i].firstName === name) {
+//             if (contacts[i].hasOwnProperty(prop)) {
+//                 return contacts[i][prop]
+//             }else {
+//                 return "No such property";
+//               }
+//         }
+//     }
+//     return 'No such contact'
+
+    // Only change code above this line
+// }
+
+
+// console.log(lookUpProfile("Kristian", "lastName")); //No such property
+
+
+// function randomRange(myMin, myMax) {
+//     // Only change code below this line
+//     return Math.floor(Math.random() * (myMax - myMin + 1));
+//     // Only change code above this line
+//   }
+
+// //   console.log(randomRange(10,20));
+
+
+//  console.log( 45 + Math.floor(Math.random()* (50 - 45 + 1)));
+
+ 
+// function convertToInteger(str) {
+//     return Math.floor(str)
+//     }
+    
+//   console.log(  convertToInteger("56"));
+
+
+// function checkEqual(a, b) {
+//   return  (a===b)?'Equal':'Not Equal'
+//     }    
+//    console.log(checkEqual(1, 2));
+// const s = [5, 7, 2];
+// function editInPlace() {
+//   // Only change code below this line
+// s[0] = 2;
+// s[1]=5;
+// s[2]=7;
+//   // Only change code above this line
+// }
+// console.log(s);
+// editInPlace();
+// console.log(s);
+  // Using s = [2, 5, 7] would be invalid
+
+//   const LOCAL_FORECAST = {
+//     yesterday: { low: 61, high: 75 },
+//     today: { low: 64, high: 77 },
+//     tomorrow: { low: 68, high: 80 }
+//   };
+  
+  // Only change code below this line
+    
+  // const lowToday = LOCAL_FORECAST.today.low;
+  // const highToday = LOCAL_FORECAST.today.high;
+  
+//   const {today:{low:lowToday,high:highToday}} 
   
   
+  // Only change code above this line
