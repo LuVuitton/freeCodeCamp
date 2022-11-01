@@ -312,5 +312,52 @@
   
   
   // Only change code above this line
+// const arr  = [5, 8, 12, 19, 22];
 
+// function sumTwoSmallestNumbers(numbers) {  
+//     // const res = []; 
+//     for (let i = 0; i < numbers.length; i++) {
+//         console.log(numbers[i]);
+//     }
+//     }
+//     console.log(sumTwoSmallestNumbers(arr)); //13
+
+// const result = {
+//     success: ["max-length", "no-amd", "prefer-arrow-functions"],
+//     failure: ["no-var", "var-on-top", "linebreak"],
+//     skipped: ["no-extra-semi", "no-dup-keys"]
+//   };
+//   function makeList(arr) {
+//     // Only change code below this line
+    
+    
+    
+//     const failureItems = []
+//   const result = {
+//     success: ["max-length", "no-amd", "prefer-arrow-functions"],
+//     failure: ["no-var", "var-on-top", "linebreak"],
+//     skipped: ["no-extra-semi", "no-dup-keys"]
+//   };
+//   function makeList(arr) {
+//     // Only change code below this line
+    
+    
+//    for (let i = 0; i < arr.length; i++) {
   
+//       failureItems.push(`<li class="text-warning">${result.failure[i]}</li>`)
+      
+//   }
+//     // Only change code above this line
+  
+//     return failureItems;
+//   }
+  
+//   const failuresList = makeList(result.failure);
+//     // Only change code above this line
+  
+//     return failureItems;
+//   }
+  
+//   const failuresList = makeList(result.failure);
+
+
