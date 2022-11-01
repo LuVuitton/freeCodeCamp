@@ -361,3 +361,80 @@
 //   const failuresList = makeList(result.failure);
 
 
+// // Only change code below this line
+// class Vegetable {
+//     constructor(Vegetable) {
+//       this.name = Vegetable;
+//     }
+//   }
+//   // Only change code above this line
+  
+//   const carrot = new Vegetable('carrot');
+//   console.log(carrot.name); // Should display 'carrot'
+
+
+// function basicOp(x, a, b)
+// {
+//   switch (x) {
+//   case '+':
+//   return  a+b;
+//     break;
+//         case '-':
+//             return  a-b;
+//     break;
+
+//         case '*':
+//             return  a*b;
+//     break;
+
+//         case '/':
+//             return  a/b;
+//     break;
+//   }
+// }
+
+// console.log(basicOp('-', 15, 18));
+
+// let str = ('45385593107843568');
+
+
+
+// function fakeBin(x){
+// const arr = []
+//     for (let i = 0; i < x.length; i++) {
+//     if (x[i]<5) {
+//         arr.push(0);
+//     } else if (x[i]>=5) {
+//         arr.push(1);
+//     } else {
+//         arr.push(Number(x[i]));
+// }
+//     }
+// return arr.join('');
+// }
+
+// console.log(fakeBin(str));
+
+
+// const areaOrPerimeter = function(l , w) {
+//     return  (l === w)? l*w:(l+w)*2;
+//     };
+
+
+//     console.log(areaOrPerimeter(6,10));
+
+
+// function isTriangle(a,b,c) {
+//     if(a<0 || b<0 || c<0){
+//        return false;
+//     } else if ((a < (b + c)) && (b < (c + a)) && (c < (b + a))) {
+//       return true
+//     } else{
+//       return false
+//     }
+        
+//   }
+
+//   console.log(isTriangle(7,2,2));
+//   console.log(isTriangle(7,5,1));
+//   console.log(isTriangle(6,10,3));
