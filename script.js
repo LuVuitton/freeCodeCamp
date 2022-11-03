@@ -438,3 +438,43 @@
 //   console.log(isTriangle(7,2,2));
 //   console.log(isTriangle(7,5,1));
 //   console.log(isTriangle(6,10,3));
+
+
+// function hero(bullets, dragons){
+// return    bullets>=dragons*2?true:false
+// }
+    
+
+// var humanYearsCatYearsDogYears = function(humanYears) {
+// return   humanYears===1?[humanYears,15,15]
+// :humanYears===2?[humanYears,24 ,24  ]
+// :humanYears>2?[humanYears,24+((humanYears-2)*4),24+((humanYears-2)*5)]:'hello'
+//   }
+  
+
+//   console.log(humanYearsCatYearsDogYears(2));
+
+
+// function simpleMultiplication(x) {
+//     return x%2===0?x*8:x*9
+//     }
+
+// function finalGrade (exam, projects) {
+    
+//     return exam>90 && projects>10?100
+//       :exam>90 && projects>10?100
+//       :exam>75 && projects>=5?90
+//         :exam>50 && projects>=2?75:0
+    
+//     }
+    
+
+// console.log(finalGrade (0, 11));
+
+// function enough(cap, on, wait) {
+
+//  return ((cap-on) -wait)>0?0:((cap-on) -wait)*-1
+
+// }
+// console.log(  enough(100, 60, 50));
+
